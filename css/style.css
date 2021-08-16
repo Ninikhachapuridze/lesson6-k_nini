@@ -1,10 +1,12 @@
 /*ჰედერის გასტილვა*/
+
 .logo{
 	display: inline-block;
 	font-size: 13px;
 	color: #FA6980;
 	margin-top:17px ;
 	margin-left: 14px;
+	margin-right: 92px;
 }
 .navigation{
 	display: inline-block;
@@ -31,6 +33,7 @@
 	left: 0;
 	width: 100%;
 	z-index: 100;
+	background-color: #F6F8F9;
 }
 .sec-1{
 	margin-top: 67px;
@@ -52,13 +55,22 @@
 .sec-p{
 	font-size: 13px;
 	color: #A6ADB4;
-	margin: 66px 40px 40px 10px;
+	margin: 66px 40px 10px 10px;
 }
 .div-child{
 	display: inline-block;
 	
 	position: relative;
 	z-index: 5;
+
+
+}
+.div-child1{
+	display: inline-block;
+	
+	position: relative;
+	z-index: 5;
+	margin: 0 30px;
 
 }
 .sec-p1{
@@ -80,4 +92,83 @@
 	left: 40px;
 	font-size: 16px;
 	color: #FFFFFF;
+}
+/* მეორე სექციის გასტილვა */
+.sec-left{
+	display: inline-block;
+	width: 760px;
+	vertical-align: top;
+}
+
+.sec2-title{
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-top: 58px;
+	margin-bottom: 40px;
+}
+.sec2-img{
+	display: inline-block;
+	margin-bottom: 40px;
+	
+}
+.sec2-div{
+	display: inline-block;
+	position: relative;
+	z-index: 5;
+
+}
+.child-p{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.sec2-2-div{
+	display: inline-block;
+	width: 360px;
+	vertical-align: top;
+}
+.right-img{
+	margin-bottom: 102px;
+	margin-left: 40px;
+}
+/*ფუტერის გასტილვა*/
+.footer{
+	background-color: #A6ADB4;
+}
+.f-logo{
+	font-size: 13px;
+	color: #ffffff;
+	padding-top: 58px;
+	display: inline-block;
+	vertical-align: top;
+}
+.f-ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 90px;
+	margin-top: 58px;
+
+}
+.f-li{
+	
+	margin-bottom: 8px;
+	font-size: 13px;
+	color: #CBD0D3;
+}
+
+.f-p{
+	font-size: 11px;
+	color: #CBD0D3;
+	display: inline-block;
+	margin-top: 62px;
+	margin-left: 105px;
+	margin-right: 165px;
+
+}
+.footer-logo{
+	margin-right: 32px;
 }
