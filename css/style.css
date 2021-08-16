@@ -1,5 +1,11 @@
 /*ჰედერის გასტილვა*/
 
+.main{
+
+	background-color: #F6F8F9;
+
+}
+
 .logo{
 	display: inline-block;
 	font-size: 13px;
@@ -28,12 +34,14 @@
 	margin-left: 40px;
 }
 .header-wraper{
+
+	background-color: #F6F8F9;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 100;
-	background-color: #F6F8F9;
+	
 }
 .sec-1{
 	margin-top: 67px;
